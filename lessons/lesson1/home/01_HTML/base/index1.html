@@ -11,6 +11,7 @@
 </body>
 </html>
 
+
 <h1>HOW-TO: Программа на Python, Часть 1</h1>
 
 <ul>
@@ -55,3 +56,26 @@
 <p><code><b><i><u>chmod +x hello.py</u></i></b></code></p>
 <p>в папке, в которой вы сохранили программу. Теперь запустите её.</p>
 <pre><code>
+    greg@earth:~/python_examples$ ./hello.py
+    Hello. I am a python program.
+    What is your name? Ferd Burphel
+    Hello there, Ferd Burphel!
+    greg@earth:~/python_examples$
+</code></pre>
+<p>Вот и всё.</p>
+
+<h2>Пример цикла For</h2>
+<p>
+    Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый<br>
+    редактор и наберите следующую программу:
+</p>
+<pre><code>
+    #!/usr/bin/env python
+    for cntr in range(0,10):
+        print cntr
+</code></pre>
+<p>
+    <i>Не забудьте поставить символ табуляции перед строкой «print cntr».</i> Это важно. В<br>
+Python для указания на блоки кода используются не круглые «<b>(</b>» и фигурные «<b>{</b>» скобки<br>
+как в других языках программирования, а отступы.
+</p>
