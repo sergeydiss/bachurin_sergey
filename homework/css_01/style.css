@@ -1,0 +1,8 @@
+@import "print.css" print;
+@import "screen.css" screen;
+
+h1{
+    font-size: 120%;
+    font-family: sans-serif;
+    color:blueviolet
+}
